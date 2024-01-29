@@ -135,6 +135,7 @@ a {
 @media (min-width: 600px) {
   .container {
     width: 100%;
+    overflow: hidden;
   }
 }
 * {
@@ -202,8 +203,10 @@ html {
 }
 .about-us__item-icon {
   position: absolute;
-  bottom: -50px;
-  right: -50px;
+  bottom: -30px;
+  right: -30px;
+  width: 100px;
+  height: 100px;
 }
 
 @media (min-width: 600px) {
@@ -262,6 +265,8 @@ html {
     position: absolute;
     bottom: -30px;
     right: -30px;
+    width: 135px;
+    height: 135px;
   }
 }
 .background__container {
@@ -471,7 +476,7 @@ html {
 }
 .footer__item > ul > li {
   margin-left: 4px;
-  margin-top: 12px;
+  margin-top: 20px;
 }
 .footer__item > ul > li > a {
   display: flex;
@@ -480,7 +485,7 @@ html {
 }
 .footer__navigation-headign {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 15px;
 }
 
@@ -586,10 +591,11 @@ html {
   align-items: center;
 }
 .header__nav-item {
-  text-align: end;
+  text-align: start;
   width: 320px;
   font-size: 20px;
   padding: 20px;
+  padding-top: 40px;
 }
 
 @media (min-width: 600px) {
