@@ -472,7 +472,6 @@ html {
 .footer__item {
   margin-top: 25px;
   margin-bottom: 25px;
-  width: 155px;
 }
 .footer__item > ul > li {
   margin-left: 4px;
@@ -486,7 +485,7 @@ html {
 .footer__navigation-headign {
   font-size: 15px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 @media (min-width: 600px) {
@@ -501,9 +500,10 @@ html {
   }
   .footer__item {
     margin-top: 30px;
+    width: 185px;
   }
   .footer__mobile {
-    width: 480px;
+    width: 509px;
     justify-content: space-between;
     display: flex;
   }
