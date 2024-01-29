@@ -125,7 +125,7 @@ a {
 
 .container {
   width: 100%;
-  overflow: hidden;
+
 }
 
 .container--balck {
@@ -135,7 +135,7 @@ a {
 @media (min-width: 600px) {
   .container {
     width: 100%;
-    overflow: hidden;
+
   }
 }
 * {
