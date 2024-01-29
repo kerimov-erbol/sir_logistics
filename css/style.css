@@ -101,7 +101,7 @@ html {
 }
 
 body {
-  background-color: rgb(156, 21, 36);
+  background-color: #2A6A98;
   color: white;
 }
 
@@ -125,17 +125,16 @@ a {
 
 .container {
   width: 100%;
-
 }
 
 .container--balck {
-  background-color: rgb(24, 23, 27);
+  background-color: #18252F;
 }
 
 @media (min-width: 600px) {
   .container {
-    width: 100%;
-
+    max-width: 100%;
+    min-width: 1100px;
   }
 }
 * {
@@ -165,7 +164,7 @@ html {
 }
 .about-us__item {
   margin-top: 45px;
-  background-color: #761A1F;
+  background-color: #1D4A6A;
   position: relative;
   width: 320px;
   height: -moz-fit-content;
@@ -230,7 +229,7 @@ html {
   }
   .about-us__item {
     margin-top: 30px;
-    background-color: #761A1F;
+    background-color: #1D4A6A;
     position: relative;
     width: 525px;
     height: 290px;
@@ -399,7 +398,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #761A1F;
+  background-color: #1D4A6A;
   border-radius: 20px;
   width: 150px;
   height: 100px;
@@ -439,7 +438,7 @@ html {
     height: auto;
   }
   .contact__item {
-    background-color: #761A1F;
+    background-color: #1D4A6A;
     border-radius: 20px;
     width: 150px;
     height: 100px;
@@ -535,7 +534,7 @@ html {
   align-items: center;
   justify-content: space-between;
   height: 70px;
-  background-color: rgb(156, 21, 36);
+  background-color: #2A6A98;
 }
 .header__logo-img {
   margin-top: 2px;
@@ -628,7 +627,7 @@ html {
   }
   .header-d__navigation {
     width: 100%;
-    background-color: #a8262f;
+    background-color: #2A6A98;
   }
   .header-d__navigation-wrapper {
     width: 1100px;
@@ -680,7 +679,7 @@ html {
   .location {
     width: 100%;
     min-height: 450px;
-    background-color: #212026;
+    background-color: #18252F;
   }
   .location__wrapper {
     margin: 0 auto;
